@@ -1,0 +1,47 @@
+html,
+body { 
+    background-color:#cce9ff;
+}
+
+.parent {
+height: 480px;
+background: #fdfdfd;
+display: flex;
+
+justify-content: center;
+width:300px;
+position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%, -50%);
+
+border-radius:3%;
+}
+
+
+.innerDiv{
+position:absolute;
+top:60%;
+text-align:center;
+
+margin-right:20px;
+margin-left:20px;
+
+}
+.title{
+    font-weight: bold;
+}
+.gray{
+    color:grey;
+}
+#imageQR {
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+background-color: #1597ff;
+width: 100%;
+height: 55%;
+display:relative;
+border-radius:2%;
+}
